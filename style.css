@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff9f9;
+  color: #800000; /* rojo vino */
+}
+
+#app {
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: #b22222;
+  margin-bottom: 0.5rem;
+}
+
+.busqueda-box {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+#districtInput {
+  padding: 0.5rem;
+  width: 250px;
+  border: 2px solid #b22222;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #b22222;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8b1a1a;
+}
+
+#estadoBusqueda {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #d63333;
+}
+
+#map {
+  height: 600px;
+  border-radius: 10px;
+  border: 2px solid #b22222;
+}

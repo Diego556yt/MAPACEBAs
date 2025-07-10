@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mapa de CEBAs</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>🧭 Mapa Interactivo de CEBAs</h1>
+
+    <div class="busqueda-box">
+      <input type="text" id="districtInput" placeholder="Escribe un distrito (ej. comas)" />
+      <button onclick="buscarPorDistrito()">Buscar</button>
+    </div>
+
+    <div id="estadoBusqueda">Esperando búsqueda...</div>
+
+    <div id="map"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
